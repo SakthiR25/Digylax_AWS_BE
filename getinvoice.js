@@ -1013,8 +1013,8 @@ app.use(express.json());
 //   useUnifiedTopology: true,
 // };
 const mongoOptions = {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
+  // useNewUrlParser: true,
+  // useUnifiedTopology: true,
   ssl: true, 
   sslValidate: true, 
 };
