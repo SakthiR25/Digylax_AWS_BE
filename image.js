@@ -159,8 +159,8 @@ app.use(cors());
 
 // Connect to MongoDB
 mongoose.connect("mongodb+srv://sakthivel:sakthi@cluster0.dconihp.mongodb.net/imageUploader", {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
+  // useNewUrlParser: true,
+  // useUnifiedTopology: true,
 });
 const imageSchema = new mongoose.Schema({
   filename: String,
